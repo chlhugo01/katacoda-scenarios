@@ -1,8 +1,10 @@
-This is our  group project
+Order food from store
 
 ## Task
-Clone our example repository that contains the set of documentation with the following command:
+access [localhost:15100/login](localhost:15100/login)
 
-`git clone https://github.com/chlhugo01/COMP3122GroupProject1.git katacoda-scenario-examples`{{execute}}
+`git clone https://github.com/chlhugo01/COMP3122GroupProject1.git`{{execute}}
 
-Within the repository, you will see a set of examples of implementing various Katacoda functionality.
+then direct to next directory
+
+`cd katacoda-scenario-examples`{{execute}}
