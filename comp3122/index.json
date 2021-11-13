@@ -1,8 +1,8 @@
 {
-  "title": "comp3122group1",
-  "description": "walkthorugh program",
+  "title": "comp3122 group project",
+  "description": "comp3122 group project",
   "difficulty": "Beginner",
-  "time": "10",
+  "time": "10 minutes",
   "details": {
     "steps": [
       {
@@ -16,10 +16,6 @@
       {
         "title": "Step 3",
         "text": "step3.md"
-      },
-      {
-        "title": "Step 4",
-        "text": "step4.md"
       }
     ],
     "intro": {
@@ -30,9 +26,9 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "python:3.8"
+    "imageid": "ubuntu:2004"
   }
 }
