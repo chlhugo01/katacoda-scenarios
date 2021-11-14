@@ -26,7 +26,10 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "editor-terminal",
+    "dashboards": [{"name": "URL", "href": "https://www.google.co.uk"},
+      {"name": "Port 80", "port": 80}
+    ]
   },
   "backend": {
     "imageid": "ubuntu:2004"

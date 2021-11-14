@@ -7,4 +7,8 @@ Clone our example repository that contains the set of documentation with the fol
 
 then direct to next directory
 
-`cd katacoda-scenario-examples`{{execute}}
+`cd COMP3122GroupProject1`{{execute}}
+
+then docker compose up
+
+`docker-compose up`{{execute}}
