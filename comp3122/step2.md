@@ -1,10 +1,12 @@
 Login 
 
 ## Task
-access [localhost:15100/login](localhost:15100/login)
+access ["https://[[HOST_SUBDOMAIN]]-15000-[[KATACODA_HOST]].environments.katacoda.com"]("https://[[HOST_SUBDOMAIN]]-15000-[[KATACODA_HOST]].environments.katacoda.com")
 
-`git clone https://github.com/chlhugo01/COMP3122GroupProject1.git`{{execute}}
 
-then direct to next directory
+Login the system
+`curl ["https://[[HOST_SUBDOMAIN]]-15000-[[KATACODA_HOST]].environments.katacoda.com"]/login?username=Charlie&password=Charlie123" -X POST` {{execute}}
+
+
 
 `cd katacoda-scenario-examples`{{execute}}
