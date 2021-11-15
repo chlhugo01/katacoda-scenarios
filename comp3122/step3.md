@@ -1,10 +1,12 @@
-This is our  group project
 
-## Task
-Clone our example repository that contains the set of documentation with the following command:
+Show menu
+`curl https://[[HOST_SUBDOMAIN]]-15000-[[KATACODA_HOST]].environments.katacoda.com/menu`{{execute}}
 
-`git clone https://github.com/chlhugo01/COMP3122GroupProject1.git`{{execute}}
+Show menu of first restaurant
+`curl https://[[HOST_SUBDOMAIN]]-15000-[[KATACODA_HOST]].environments.katacoda.com/menu/1`{{execute}}
 
-then direct to next directory
+Login the system as delivery
+`curl https://[[HOST_SUBDOMAIN]]-15000-[[KATACODA_HOST]].environments.katacoda.com/menu/1/1`{{execute}}
 
-`cd katacoda-scenario-examples`{{execute}}
+
+curl "http://localhost:15000/menu"
