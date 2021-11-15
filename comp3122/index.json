@@ -29,14 +29,14 @@
     "showdashboard": true,
     "dashboards": [
       {
-        "name": "Port 80",
-        "port": 80
+        "name": "Port 15000",
+        "port": 15000
       }
     ],
     "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "docker",
-    "port": 80
+    "imageid": "ubuntu:2004",
+    "port": 15000
   }
 }
