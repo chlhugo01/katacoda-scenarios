@@ -31,11 +31,7 @@
     "dashboards": [{"name": "Port 80", "port": 80},
         {"name": "URL", "href": "https://www.google.co.uk"},
         {"name": "Placeholder", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"}],
-    "terminals": [
-        {"name": "Terminal 2", "target": "host01"},
-        {"name": "Docker Stats", "command": "docker stats", "target": "host01"}
-    ],
-    "uilayout": "terminal"
+    "uilayout": "katacoda.com/docs/scenarios/layouts"
 },
   "backend": {
     "imageid": "ubuntu:2004",
